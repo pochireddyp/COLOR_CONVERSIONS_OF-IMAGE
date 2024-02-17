@@ -128,7 +128,8 @@ Split and merge HSV Image
 <br>
 <br>
 
-### vi) BGR and RGB to HSV and GRAY```Python
+### vi) BGR and RGB to HSV and GRAY
+```Python
     import cv2
     img = cv2.imread('Pochi.jpg',1)
     img = cv2.resize(img,(300,200))
@@ -151,13 +152,13 @@ Split and merge HSV Image
 ```
 
 #### OUTPUT:
-
 ![pochi1 6](https://github.com/pochireddyp/COLOR_CONVERSIONS_OF-IMAGE/assets/150232043/f1d65467-b13e-4850-a6fa-a8b258e7abea).
 
 <br>
 <br>
 
 ### vii) HSV to RGB and BGR
+
 ```Python
 import cv2
 img = cv2.imread('Pochi.jpg')
